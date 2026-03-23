@@ -1,0 +1,35 @@
+{
+  "manifestVersion": 5,
+  "id": "com.codex.ai-realestate-pro-max-v3",
+  "name": "AI RealEstate PRO MAX V3",
+  "version": "3.1.0",
+  "main": "index.html",
+  "host": {
+    "app": "PS",
+    "minVersion": "24.4.0"
+  },
+  "requiredPermissions": {
+    "localFileSystem": "request"
+  },
+  "entrypoints": [
+    {
+      "type": "panel",
+      "id": "realEstatePanel",
+      "label": {
+        "default": "AI RealEstate PRO MAX"
+      },
+      "minimumSize": {
+        "width": 240,
+        "height": 420
+      },
+      "preferredDockedSize": {
+        "width": 300,
+        "height": 540
+      },
+      "preferredFloatingSize": {
+        "width": 340,
+        "height": 620
+      }
+    }
+  ]
+}

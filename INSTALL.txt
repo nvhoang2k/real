@@ -1,0 +1,26 @@
+AI RealEstate PRO MAX V3
+
+This package is self-contained for Adobe Photoshop UXP.
+No external libraries or npm install steps are required.
+
+Install:
+1. Open UXP Developer Tool.
+2. Choose Add Plugin.
+3. Select the plugin folder that contains manifest.json.
+4. Launch Photoshop and open the panel "AI RealEstate PRO MAX".
+
+Included:
+- manifest.json
+- index.html
+- index.js
+- styles.css
+- ai_runtime.js
+- ai_runtime_onnx_provider.js
+- node_modules/
+- models/
+- presets/
+- README.md
+
+Notes:
+- Minimum supported Photoshop version: 24.4.0
+- The plugin requests local file system access for export and batch processing.

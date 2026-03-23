@@ -1,0 +1,16 @@
+{
+  "name": "ai-realestate-pro-max-v3",
+  "version": "3.1.0",
+  "private": true,
+  "description": "Photoshop UXP plugin for real-estate photo enhancement.",
+  "dependencies": {
+    "onnxruntime-web": "^1.22.0"
+  },
+  "optionalDependencies": {
+    "onnxruntime-node": "^1.22.0"
+  },
+  "scripts": {
+    "validate": "node -e \"JSON.parse(require('fs').readFileSync('manifest.json','utf8')); console.log('manifest.json OK')\"",
+    "validate:onnx": "python scripts/validate_onnx_models.py"
+  }
+}
